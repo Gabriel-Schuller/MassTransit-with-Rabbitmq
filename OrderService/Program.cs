@@ -11,9 +11,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddMassTransit(config => {
+    config.AddConsumer<OrderConsumer>();
+
+
     config.UsingRabbitMq((ctx, cfg) =>
     {
         cfg.Host("rabbitmq://localhost");
+
+        cfg.ReceiveEndpoint("order-queue", c =>
+        {
+            c.ConfigureConsumer<OrderConsumer>(ctx);
+        });
     });
 });
 
