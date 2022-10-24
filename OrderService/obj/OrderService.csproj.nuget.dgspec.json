@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\OrderService\\OrderService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\schul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\OrderService\\OrderService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\OrderService\\OrderService.csproj",
+        "projectName": "OrderService",
+        "projectPath": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\OrderService\\OrderService.csproj",
+        "packagesPath": "C:\\Users\\schul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\OrderService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\schul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\schul\\OneDrive\\Desktop\\Rabbitmq\\WITH_MASSTRANSIT\\Projects-By-Me\\DotnetCoreCentral\\OrderService\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
